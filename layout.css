@@ -1,0 +1,50 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(228, 243, 255);
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    width: 20%;
+    height: 70%;
+    display: flex;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    margin: auto auto;
+    align-items: center;
+    font-size: 100px;
+}
+.box1{
+    background-color: aquamarine;
+    text-align: center;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: brown;
+}
+.box4{
+    background-color: palevioletred;
+}
+@media (max-width: 900px){
+    dix{
+        width: 20%;
+        height: 20%;
+    }
+}
+@media (max-width: 600px){
+    div{
+        width: 80%;
+        height: 40%;
+    }
+}
